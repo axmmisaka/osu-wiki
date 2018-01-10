@@ -1,5 +1,5 @@
-Storyboards
-===========
+Storyboarding (Español)
+========================
 
 ***Artículo original aquí***
 

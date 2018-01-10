@@ -1,4 +1,4 @@
-# BanchoBot
+# BanchoBot (Deutsch)
 
 ![BanchoBots Benutzer Panel.](BanchoBot.jpg "BanchoBots Benutzer Panel.")
 

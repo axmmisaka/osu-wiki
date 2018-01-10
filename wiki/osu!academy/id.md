@@ -1,4 +1,4 @@
-osu!academy
+osu!academy (Bahasa Indonesia)
 ==============================
 
 ![osu!academy's logo](img/osu!academy-logo.jpg "osu!academy logo")

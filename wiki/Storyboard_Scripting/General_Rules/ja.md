@@ -1,4 +1,4 @@
-Storyboard Scripting General Rules
+Storyboard Scripting General Rules (日本語)
 ================================================
 
 ![An example of scripting in .osb.](SBS_Base.jpg "An example of scripting in .osb.")

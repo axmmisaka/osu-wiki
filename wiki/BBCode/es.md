@@ -1,8 +1,8 @@
 # BBCode
 
-![La caja de edición en los foros](img/editor.jpg)
+![La caja de edición en los foros](img/forums.jpg "La caja de edición en los foros")
 
-BBCode es un lenguaje de marcado que se utiliza en los foros de osu! y, en mayor medida, en la gran mayoría de los foros de Internet para permitir el formato de texto enriquecido.
+**BBCode** es un lenguaje de marcado que se utiliza en los foros de osu! y, en mayor medida, en la gran mayoría de los foros de Internet para permitir el formato de texto enriquecido.
 Se compone de etiquetas que rodean el texto para enriquecer y, en ocasiones, dar atributos al mismo.
 
 En la web de osu!, BBCode se utiliza en los mensajes del foro, las firmas y las páginas de usuario.
@@ -36,11 +36,11 @@ Por ejemplo (presta atención al orden del código):
 
 **Enfatiza** palabras o un párrafo entero de una manera **más intensa que** [cursiva](#cursiva).
 
-- Botón dedicado: ![Botón negrita](img/bold.png)
+- Botón dedicado: ![Botón negrita](img/bold.jpg "Botón negrita")
 - Notas:
    * Utilizar con moderación. El uso excesivo puede crear incomodidad y hacer que el mensaje sea más difícil de leer.
 - Sintaxis:
-```
+```prolog
 [b] ... [/b]
 ```
 
@@ -48,11 +48,11 @@ Por ejemplo (presta atención al orden del código):
 
 **Enfatiza** palabras o un párrafo entero de una manera *menos intensa que* [negrita](#negrita).
 
-- Botón dedicado: ![Botón itálico](img/italic.png)
+- Botón dedicado: ![Botón itálico](img/italic.jpg "Botón itálico")
 - Notas:
   * Utilizar con moderación. El uso excesivo debilitará la eficacia del énfasis.
 - Sintaxis:
-```
+```prolog
 [i] ... [/i]
 ```
 
@@ -60,11 +60,11 @@ Por ejemplo (presta atención al orden del código):
 
 **Dibuja una línea horizontal debajo** de la(s) palabra(s) o un párrafo entero.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón Subrayado](img/underline.jpg "Botón Subrayado")
 - Notas:
   * Utilizar con moderación. El uso excesivo puede crear incomodidad y hacer que el mensaje sea más difícil de leer.
 - Sintaxis:
-```
+```prolog
 [u] ... [/u]
 ```
 
@@ -72,15 +72,15 @@ Por ejemplo (presta atención al orden del código):
 
 **Traza una línea horizontal a través del centro** de la(s) palabra(s) o un párrafo entero.
 
-- Botón dedicado: ![Botón Tachado](img/strike.png)
+- Botón dedicado: ![Botón Tachado](img/strike.jpg "Botón Tachado")
 - Notas:
   * Utilizar con moderación. El uso excesivo puede crear incomodidad y hacer que el mensaje sea más difícil de leer.
 - Sintaxis:
-```
+```prolog
 [strike] ... [/strike]
 ```
   * Alternativamente, se puede utilizar:
-```
+```prolog
 [s] ... [/s]
 ```
 
@@ -90,7 +90,8 @@ _BBCode llama a este "Color" ._
 
 **Añade color** a algún texto.
 
-- Botones dedicados: _ninguno_
+- Botones dedicados:
+![La caja de color](img/colour.jpg "La caja de color")
 - Notas:
   * El cuadro de color se encuentra en el lado derecho del cuadro de texto.
   * Utiliza esta etiqueta con moderación.
@@ -102,7 +103,7 @@ _BBCode llama a este "Color" ._
   * Donde `HEXCODE` es un color en hexadecimal o nombre de color.
     - Para hexadecimal, debe comenzar con `#`, seguido por 6 caracteres hexadecimales (0 - 9, A - F).
     - Para el nombre del color, debe ser un color HTML válido.
-```
+```prolog
 [color=HEXCODE] ... [/color]
 ```
 
@@ -112,7 +113,8 @@ Para obtener una lista de nombres de color, consulta [nombres de color X11](http
 
 Ajusta relativamente el tamaño del texto.
 
-- Botones dedicados: ![Opciones de tamaño de fuente](img/font-size.png)
+- Botones dedicados:
+![Opciones de tamaño de fuente](img/font-size.jpg "Opciones de tamaño de fuente")
 - Notas:
   * Utiliza esta etiqueta con moderación.
   * Sólo hay 4 tamaños que puede utilizar:
@@ -124,7 +126,7 @@ Ajusta relativamente el tamaño del texto.
   * El argumento `NUMBER` no debe usar comillas.
 - Sintaxis:
   * Cuando `NUMBER` sea uno de los tamaños indicados anteriormente:
-```
+```prolog
 [size=NUMBER] ... [/size]
 ```
 
@@ -137,26 +139,26 @@ _No debe confundirse con [Spoilerbox](#spoilerbox)._
 Esto puede ser útil si estás hablando de una escena crítica en un programa de televisión, película o anime, pero no quieres estropearlo para otros.
 El lector, sin embargo, todavía puede leer el texto, resaltándolo.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón Spoiler](img/spoiler.jpg "Botón Spoiler")
 - Notas:
   * Si utilizas la etiqueta [color](#color) junto con esto, el color tendrá un fondo negro.
 - Sintaxis:
-```
+```prolog
 [spoiler] ... [/spoiler]
 ```
 
 ### Caja spoiler
 
-_No debe confundirse con [Caja](#caja) o [Spoiler](#spoiler)._
+_No debe confundirse con [Box](#box) o [Spoiler](#spoiler)._
 
 **Oculta un párrafo** dentro de una caja previamente nombrada `collapsed text`.
 El lector, sin embargo, puede leer el párrafo haciendo clic en la spoilerbox para mostrar el párrafo oculto.
 
-- Botón dedicado: ![Botón Spoilerbox](img/spoilerbox.png)
+- Botón dedicado: ![Botón Spoilerbox](img/spoilerbox.jpg "Botón Spoilerbox")
 - Notas:
-  * Esto creará un cuadro [Caja](#caja) con el texto de encabezado `collapsed text`.
+  * Esto creará un cuadro [Box](#) con el texto de encabezado `collapsed text`.
 - Sintaxis:
-```
+```prolog
 [spoilerbox]
 ...
 [/spoilerbox]
@@ -171,7 +173,7 @@ El lector puede mostrar el párrafo haciendo clic en el nombre del cuadro.
 
 Estos se utilizan comúnmente para ocultar imágenes grandes o una gran cantidad de imágenes.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón de caja](img/box.jpg "Botón de caja")
 - Notas:
   * De forma predeterminada, se creará un cuadro con el texto sin encabezado.
     - Si deja el argumento `NAME` en blanco (o no incluye uno), la altura de la caja será muy pequeña!
@@ -179,7 +181,7 @@ Estos se utilizan comúnmente para ocultar imágenes grandes o una gran cantidad
   * El argumento `NAME` puede contener espacios.
 - Sintaxis:
   *  `NAME` será el nombre de la caja.
-```
+```prolog
 [box=NAME]
 ...
 [/box]
@@ -189,7 +191,7 @@ Estos se utilizan comúnmente para ocultar imágenes grandes o una gran cantidad
 
 Cita la(s) palabra(s) o párrafo(s) dado(s).
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón de cita](img/quote.jpg "Botón de cita")
 - Notas:
   * Es conveniente tener en cuenta al autor de la cita si estás citando a alguien (usa el argumento `NAME`).
   * El argumento `NAME` **debe** usar comillas.
@@ -197,7 +199,7 @@ Cita la(s) palabra(s) o párrafo(s) dado(s).
     - Si hiciste esto, el mensaje (cuando hagas clic en `Post`) se publicará en el hilo actual.
 - Sintaxis:
   * `NAME` es a quién/qué se citará (**debe** ir entre comillas).
-```
+```prolog
 [quote=NAME]
 ...
 [/quote]
@@ -207,12 +209,12 @@ Cita la(s) palabra(s) o párrafo(s) dado(s).
 
 Formatea el texto con una familia de fuentes monoespaciada y la coloca dentro de una caja gris. Esto es muy útil cuando estás publicando código para un [storyboard](/wiki/storyboard) o código fuente de un proyecto.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón de código](img/code.jpg "Botón de código")
 - Notas:
   * Esto conservará el espaciado en blanco, lo que implica que ninguna de las líneas se romperá a menos que las rompas.
   *  El desbordamiento de líneas de texto habilitará una caja de desplazamiento horizontal.
 - Sintaxis:
-```
+```prolog
 [code]
 ...
 [/code]
@@ -222,11 +224,11 @@ Formatea el texto con una familia de fuentes monoespaciada y la coloca dentro de
 
 Alinear un párrafo al centro; típicamente para títulos o encabezados.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón central](img/centre.jpg "Botón central")
 - Notas:
   * Las etiquetas **deben** estar escritas como `centre` no `center` (ten en cuenta las dos últimas letras).
 - Sintaxis:
-```
+```prolog
 [centre]
 ...
 [/centre]
@@ -239,13 +241,13 @@ Agrega un enlace.
 No es necesario utilizar esta etiqueta si no deseas utilizar el texto del enlace.
 Los foros de osu! enlazarán automáticamente las URL pegadas dentro del mensaje.
 
-- Botón dedicado: ![Botón URL](img/url.png)
+- Botón dedicado: ![Botón URL](img/url.jpg "Botón URL")
 - Notas:
   * El argumento `ENLACE` no debe usar comillas.
 - Sintaxis:
   * `ENLACE` es la url.
   * Donde `TEXTO` es el texto del enlace.
-```
+```prolog
 [url=ENLACE]TEXTO[/url]
 ```
 
@@ -257,13 +259,13 @@ Vincula un perfil de usuario utilizando el nombre del usuario.
 
 Se recomienda utilizar [URL](#url) en su lugar (utilizando el número de identificación del usuario).
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón Perfil](img/profile.jpg "Botón Perfil")
 - Notas:
   * ¡No recomendado!
   * El argumento `USER` tiene que estar definido.
 - Sintaxis:
   *  `USER` es el nombre del usuario.
-```
+```prolog
 [profile]USUARIO[/profile]
 ```
 
@@ -271,12 +273,12 @@ Se recomienda utilizar [URL](#url) en su lugar (utilizando el número de identif
 
 Enlaza automáticamente a una búsqueda de Google con el texto proporcionado.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón de Google](img/google.jpg "Botón de Google")
 - Notas:
   * Esto no dará a todos los mismos resultados.
     - Algunos resultados de búsqueda están ocultos debido al idioma/ubicación.
 - Sintaxis:
-```
+```prolog
 [google] ... [/google]
 ```
 
@@ -284,12 +286,12 @@ Enlaza automáticamente a una búsqueda de Google con el texto proporcionado.
 
 **Agrega un enlace directo a una página** usando el botón de Google *I'm Feeling Lucky* usando el texto proporcionado.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón de la suerte](img/lucky.jpg "Botón de la suerte")
 - Notas:
   * Esto no dará a todos los mismos resultados.
     - Algunos resultados de búsqueda están ocultos debido al idioma/ubicación.
 - Sintaxis:
-```
+```prolog
 [lucky] ... [/lucky]
 ```
 
@@ -301,9 +303,9 @@ En BBCode, hay dos partes para hacer la lista: la envoltura y los puntos.
 Los puntos se colocan dentro de la envoltura.
 
 - Botones dedicados:
-  * Lista: ![Botón Lista](img/list.png)
-  * Tipo de lista: _ninguno_
-  * Lista de viñetas: _ninguno_
+  * Lista: ![Botón Lista](img/list.jpg "Botón Lista")
+  * Tipo de lista: ![Botón Tipo de lista](img/list-type.jpg "Botón Tipo de lista")
+  * Lista de viñetas: ![Botón Lista de viñetas](img/list-bullet.jpg)
 - Notas:
   * Todos los puntos deben estar rodeados por las etiquetas de tipo lista / lista.
   * Estos son los argumentos válidos para `TYPE`:
@@ -318,7 +320,7 @@ Los puntos se colocan dentro de la envoltura.
 - Sintaxis:
   * Cuando `TYPE` sea uno de los tipos definidos más arriba.
   * Si `TYPE` no está definido, se utilizarán puntos de forma predeterminada.
-```
+```prolog
 [list=TYPE]
 [*] ...
 [/list]
@@ -336,12 +338,12 @@ Por favor, sube la imagen a sitios de intercambio de imágenes de buena reputaci
 
 También ten en cuenta que algunos sitios web no aceptan los enlaces directos a sus imágenes (también conocidos como _hotlinks_). Los sitios de intercambio de imágenes, como los mencionados anteriormente, son más adecuados con enlaces directos, ya que son sitios de intercambio de imágenes.
 
-- Botón dedicado: ![Botón de imagen](img/image.png)
+- Botón dedicado: ![Botón de imagen](img/image.jpg "Botón de imagen")
 - Notas:
-  * Si tiene muchas imágenes o imágenes grandes, se recomienda colocarlas dentro de una [Caja](#caja).
+  * Si tiene muchas imágenes o imágenes grandes, se recomienda colocarlas dentro de una [Caja](#Caja).
 - Sintaxis:
   * `LINK` es un enlace directo a una imagen.
-```
+```prolog
 [img]LINK[/img]
 ```
 
@@ -349,13 +351,13 @@ También ten en cuenta que algunos sitios web no aceptan los enlaces directos a 
 
 Incluye un vídeo de YouTube en tu publicación.
 
-- Botón dedicado: _ninguno_
+- Botón dedicado: ![Botón de imagen](img/youtube.jpg "Botón de imagen")
 - Notas:
-  * Si tiene muchas imágenes o imágenes grandes, se recomienda colocarlas dentro de una [Caja](#caja).
+  * Si tiene muchas imágenes o imágenes grandes, se recomienda colocarlas dentro de una [Caja](#Caja).
 - Sintaxis:
   * `YT-ID` es el ID de vídeo de YouTube (11 caracteres), ¡**no** toda la url!
     - El ID de video de YouTube se encuentra después del parámetro url `?V=`.
-```
+```prolog
 [youtube]YT-ID[/youtube]
 ```
 
@@ -364,11 +366,11 @@ Incluye un vídeo de YouTube en tu publicación.
 Añade un encabezado rosa elegante.
 Esto se utiliza generalmente para marcar una nueva sección en tu mensaje.
 
-- Botón dedicado: ![Heading button](img/heading.png)
+- Botón dedicado: _ninguno_
 - Notas:
   * Debes escribir la sintaxis tú mismo.
 - Sintaxis:
-```
+```prolog
 [heading] ... [/heading]
 ```
 
@@ -383,7 +385,7 @@ Esto se utiliza generalmente para denotar una nueva sección en tu mensaje.
   * Esto sólo aparece después de la publicación, no en la vista previa.
   * Debes escribir la sintaxis tú mismo.
 - Sintaxis:
-```
+```prolog
 [...]
 ```
 
@@ -395,7 +397,7 @@ Coloca el párrafo dentro de un cuadro blanco.
 - Notas:
   * Debes escribir la sintaxis tú mismo.
 - Sintaxis:
-```
+```prolog
 [notice]
 ...
 [/notice]
@@ -403,7 +405,7 @@ Coloca el párrafo dentro de un cuadro blanco.
 
 ### Trivia
 
-- Guía original: [HOW TO: Forum BBCodes (inglés)](/community/forums/topics/445599) por [Stefan](/users/626907)
+- Guía original: [HOW TO: Forum BBCodes (inglés)](https://osu.ppy.sh/forum/t/445599) por [Stefan](https://osu.ppy.sh/u/626907)
 
 ### Historia
 

@@ -1,6 +1,3 @@
----
-outdated: true
----
 Tim Global Moderasi
 =====================
 

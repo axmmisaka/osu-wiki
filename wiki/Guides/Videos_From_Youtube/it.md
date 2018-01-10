@@ -1,4 +1,4 @@
-Videos from YouTube
+Videos from YouTube (Italiano)
 ================================
 
 [*La guida indolore per aggiungere il video alle beatmap.* di: Gilrad](https://osu.ppy.sh/forum/t/639/)

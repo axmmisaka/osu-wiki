@@ -1,4 +1,4 @@
-Kiai Time
+Kiai Time (Português)
 =====================
 
 ![Lançamento de estrelas na tela indicando que o Kiai Time foi ativado.](img/Kiai_Time_test.jpg "Lançamento de estrelas na tela indicando que o Kiai Time foi ativado.")

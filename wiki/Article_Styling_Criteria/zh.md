@@ -16,16 +16,28 @@ _相关文章：[文章风格规范——新闻篇](/wiki/ASC/News)_
 
 | 文件名 | 中文写法 | 当地写法 |
 |--------|----------|----------|
+| `de.md` | 德语 | Deutsch |
+| `el.md` | 希腊语 | Ελληνικά |
 | `en.md` | 英语 | English |
 | `es.md` | 西班牙语 | Español |
+| `fi.md` | 芬兰语 | Suomi |
 | `fr.md` | 法语 | Français |
+| `hu.md` | 匈牙利语 | Magyar |
+| `id.md` | 印度尼西亚语 | Bahasa Indonesia |
 | `it.md` | 印度语 | Italiano |
+| `ja.md` | 日语 | 日本語 |
 | `ko.md` | 韩语 | 한국어 |
 | `nl.md` | 荷兰语 | Nederlands |
+| `no.md` | 挪威语 | Norsk |
 | `pl.md` | 波兰语 | Polski |
+| `pt.md` | 葡萄牙语 | Português |
 | `pt-br.md` | 葡萄牙语（巴西） | Português (Brasil) |
 | `ru.md` | 俄语 | Русский |
+| `th.md` | 泰语 | ไทย |
+| `tl.md` | 他加禄语 | Tagalog |
 | `zh.md` | 中文 | 中文 |
+| `zh-hk.md` | 粤语 | 粤语 |
+| `zh-tw.md` | 繁體中文 | 繁體中文 |
 
 ### 文件夹名
 
@@ -116,6 +128,18 @@ Markdown 中的转义字符是反斜杠（`\`）。若要使用反斜杠，应�
 文章标题 **不能** 使用其他任何标记以及图片。
 
 如果文件开头定义有关联式链接，标题应该紧跟在它下面，如果没有则放在文件开头。
+
+##### 无法翻译的标题
+
+如果有标题无法翻译，则使用：`原文 (当地语言写法)` 。下面是一些例子：
+
+**例如：**
+
+- `# osu!mania (中文)`
+- `# Live Streaming osu! (日本語)`
+- `# BBCode (Français)`
+
+当地语言写法参考[本地化](#本地化)小节的`当地写法`一列。
 
 #### 小节标题
 
@@ -326,7 +350,7 @@ _参见: [文章风格规范——图片篇](/wiki/Article_Styling_Criteria/Imag
 对于特殊情况则特殊处理，例如：
 ```
 
-关于中文标点的详细定义，参考 [GB/T 15834-2011 标准](http://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091548267.pdf)
+关于中文标点的详细定义，参考 [GB/T 15834-1995 标准](http://www.china-language.gov.cn/wenziguifan/managed/020.htm)
 
 ##### 括号
 

@@ -1,4 +1,4 @@
-Custom Sample Overrides
+Custom Sample Overrides (Deutsch)
 ==================================
 
 Sample Format

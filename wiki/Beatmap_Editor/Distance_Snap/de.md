@@ -1,4 +1,4 @@
-Distance Snap
+Distance Snap (Deutsch)
 =========================
 
 ![Beispiel](img/Beatspacing.jpg "Beispiel")

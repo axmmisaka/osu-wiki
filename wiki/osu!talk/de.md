@@ -1,4 +1,4 @@
-osu!talk
+osu!talk (Deutsch)
 ==================
 
 Einführung

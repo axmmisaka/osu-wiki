@@ -1,6 +1,3 @@
----
-outdated: true
----
 Équipe de modération globale
 ==============================
 

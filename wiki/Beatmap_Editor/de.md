@@ -1,4 +1,4 @@
-Beatmap Editor
+Beatmap Editor (Deutsch)
 =========================
 
 ![Kompositionseditor im Fenstermodus](Compose/Compose.png "Kompositionseditor im Fenstermodus")

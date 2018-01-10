@@ -1,7 +1,4 @@
----
-outdated: true
----
-Global Moderation Team
+Global Moderation Team (한국어)
 ==================
 
 **GMT**로 흔히 알려져 있는 **Global Moderation Team**은 주로 플레이어에 대한 중재, 관리자들과 커뮤니티에 관련된 사안에 중점을 두고 활동하는 osu!Staff에 속한 구성원입니다.

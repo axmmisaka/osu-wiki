@@ -1,4 +1,4 @@
-Beat Snap Divisor
+Beat Snap Divisor (Deutsch)
 ==============================
 
 osu!, osu!taiko und osu!catch

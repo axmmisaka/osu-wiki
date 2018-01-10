@@ -1,4 +1,4 @@
-# BanchoBot
+# BanchoBot (Bahasa Indonesia)
 
 ![BanchoBot's player card](BanchoBot.jpg "BanchoBot's player card")
 

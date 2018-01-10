@@ -1,4 +1,4 @@
-Beatmap Ranking Procedure
+Beatmap Ranking Procedure (中文)
 ===================================
 
 ![Ranking flowchart.](Ranking_procedure.png "Ranking flowchart.")

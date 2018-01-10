@@ -1,4 +1,4 @@
-# Packs
+# Packs (Français)
 
 _Page principale: [Beatmaps](/wiki/Beatmaps)_
 
